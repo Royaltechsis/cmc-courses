@@ -1,0 +1,135 @@
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+    position: relative; /* Ensure relative positioning for navigation arrows */
+    z-index: 1;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px;
+}
+
+.testimonial-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px 25px 0 25px;
+}
+
+.testimonial-overlay::before,
+.testimonial-overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+}
+
+.testimonial-overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #22F9D0;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding-top: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+/* Navigation Buttons */
+.swiper-navBtn {
+    color: #59fadc;
+    transition: color 0.3s ease;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 40px;
+}
+
+.swiper-navBtn:hover {
+    color: #22F9D0;
+}
+
+.swiper-button-next {
+    right: 10px; /* Align with the right edge */
+}
+
+.swiper-button-prev {
+    left: 10px; /* Align with the left edge */
+}
+
+/* Pagination */
+
+.swiper-pagination-bullet {
+    background-color: #59fadc;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #33FFA8;
+}
+
+/* Hide navigation on smaller screens */
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none; /* Hide navigation on mobile */
+    }
+}
