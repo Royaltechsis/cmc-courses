@@ -24,21 +24,21 @@ const DailyTransactions = () => {
     };
 
     return (
-        <div className="p-4 bg-[#F6FFFB] px-6 pb-6 rounded-lg shadow-md">
-            <h3 className="font-semibold text-lg mb-4">Daily Transactions</h3>
+        <div className="p-4 bg-[#F6FFFB] md-min:px-6 pb-6 rounded-lg shadow-md">
+            <h3 className="font-semibold text-sm md-min:text-lg mb-4">Daily Transactions</h3>
             <div className="overflow-x-auto">
                 <table className="min-w-full bg-[#F6FFFB] border border-gray-200">
                     <thead>
                         <tr className="bg-gray-50 text-center">
-                            <th className="py-3 border-b font-semibold text-gray-500">Product</th>
-                            <th className="py-3 border-b font-semibold text-gray-500">Payout Status</th>
+                            <th className="py-3 border-b md-min:text-base text-xs font-semibold text-gray-500">Product</th>
+                            <th className="py-3 border-b md-min:text-base text-xs font-semibold text-gray-500">Payout Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         {currentTransactions.map((transaction, index) => (
                             <tr key={index} className="hover:bg-[#E7FFF5] text-center">
-                                <td className="py-3 pt-6 px-4 border-b">{transaction.product}</td>
-                                <td className="py-3 pt-6 px-4 border-b" style={{ color: transaction.status === 'Paid' ? '#33FFA8' : '#A33FFA8' }}>
+                                <td className="py-3 md-min:text-base text-xs pt-6 px-4 border-b">{transaction.product}</td>
+                                <td className="py-3 md-min:text-base text-xs pt-6 px-4 border-b" style={{ color: transaction.status === 'Paid' ? '#33FFA8' : '#A33FFA8' }}>
                                     {transaction.status}
                                 </td>
                             </tr>

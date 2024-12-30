@@ -6,16 +6,16 @@ const about_1 = () => {
   return (
     <>
       <section>
-        <div className="flex flex-col-reverse lg-min:flex-row items-center justify-between px-8 py-20 sm:p-3">
+        <div className="flex md-min:flex-col-reverse lg-min:flex-row flex-col items-center justify-between md-min:px-8 py-20 sm:p-3">
           <div className="flex-1 sm:m-3 lg-min:px-24">
-            <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-4">
+            <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm text-center md-min:text-left md-min:pb-4">
               About Us
             </p>
             <h1 className="hidden lg-min:block text-2xl text-black font-bold mb-5">
               High Quality Trainings and Guidance to Achieve Great Results with
               Your Online Skill
             </h1>
-            <p className="text-gray-500 text-base sm:text-sm pt-10 lg-min:pt-0">
+            <p className="text-gray-500 text-base md-min:text-left text-center sm:text-sm md-min:pt-10 pt-2 lg-min:pt-0">
               Welcome to ExpertSkillz academy, your premier destination for 
               top-notch online training and resources. Explore our platform to discover
               a wide range of courses and learning opportunities designed to help
@@ -25,13 +25,13 @@ const about_1 = () => {
             </p>
           </div>
 
-          <div className="relative">
+          <div className="relative flex items-center justify-center mt-4  md-min:mt-0">
             {/* Main about image */}
-            <div className="relative inline-block">
+            <div className="relative md-min:inline-block flex items-center justify-center">
             <img
               src={aboutimg1}
               alt="About Image"
-              className="relative z-10 ml-6 sm:m-0 w-[80%] sm:w-[90%] lg:w-[70%] max-w-[400px] h-auto"
+              className="relative z-10  md-min:ml-6 sm:m-0 md-min:w-[80%] w-[80%] md-min:max-w-[400px] h-auto"
             />
 
             {/* Top-right decorative image */}

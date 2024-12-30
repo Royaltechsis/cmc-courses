@@ -48,7 +48,7 @@ function Navbar() {
             className="text-fontSize1 font-[500] hover:font-[600] transition-opacity
              text-white hover:text-[wheat] hover:delay-[0.3s] ease-linear"
           >
-            <img src={logo} alt="Logo" className="w-[220px] 3xl:w-52" />
+            <img src={logo} alt="Logo" className="md-min:w-[220px] w-[130px] md-min:3xl:w-52" />
           </Link>
         </div>
         {/* big screen */}
@@ -240,7 +240,7 @@ function Navbar() {
                 className="
       delay-[0.3s] transition-all hover:font-[600] 
       hover:text-[wheat] hover:text-[2.5rem]"
-                size={32}
+                size={28}
               />
             </Link>
             <Link
@@ -251,7 +251,7 @@ function Navbar() {
                 className="
       delay-[0.3s] transition-all hover:font-[600] 
       hover:text-[wheat] hover:text-[2.5rem]"
-                size={32}
+                size={28}
               />
             </Link>
             <Link
@@ -262,7 +262,7 @@ function Navbar() {
                 className=" 
       delay-[0.3s] transition-all hover:font-[600] 
       hover:text-[wheat] hover:text-[2.5rem]"
-                size={32}
+                size={28}
               />
             </Link>
             <Link
@@ -273,7 +273,7 @@ function Navbar() {
                 className=" 
       delay-[0.3s] transition-all hover:font-[600] 
       hover:text-[wheat] hover:text-[2.5rem]"
-                size={32}
+                size={28}
               />
             </Link>
           </div>
@@ -283,9 +283,9 @@ function Navbar() {
         </ul>
         <button className="cursor-pointer lg-min:hidden block" onClick={toggle}>
           {isMenuOpen ? (
-            <FaTimes className="w-7 h-7 " />
+            <FaTimes className="md-min:w-7 md-min:h-7 w-5 h-5 text-[#33FFA8] " />
           ) : (
-            <FaBars className="w-7 h-7" />
+            <FaBars className="md-min:w-7 md-min:h-7 w-5 h-5 text-[#33FFA8]" />
           )}
         </button>
       </nav>

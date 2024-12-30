@@ -78,9 +78,9 @@ const AffiliateFAQ = () => {
   return (
     <>
       <SecondNavBar />
-      <div className="p-5 mt-36">
+      <div className="p-5 md-min:mt-36 mt-10">
       <section className="w-full items-center justify-center text-center">
-        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-6xl pb-10">
+        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-3xl md-min:text-6xl pb-10">
             Affiliates FAQ
         </h1>
           <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto lg-min:px-28">

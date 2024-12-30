@@ -6,14 +6,14 @@ const about_2 = () => {
   return (
     <>
       <section>
-        <div className="flex flex-col lg-min:flex-row items-center justify-between px-16 py-20 sm:p-3">
+        <div className="flex md-min:flex-col flex-col-reverse lg-min:flex-row items-center justify-between px-16 py-20 sm:p-3">
          <div className="relative">
             {/* Main about image */}
-            <div className="relative inline-block">
+            <div className="relative md-min:inline-block flex items-center justify-center mt-4  md-min:mt-0">
             <img
               src={aboutimg2}
               alt="About Image"
-              className="relative z-10 ml-6 sm:m-0 w-[80%] sm:w-[90%] lg:w-[70%] max-w-[400px] h-auto"
+              className="relative z-10  md-min:ml-6 md-min:w-[80%] w-[80%] md-min:max-w-[400px] h-auto"
             />
 
             {/* Top-right decorative image */}
@@ -37,7 +37,7 @@ const about_2 = () => {
           </div>
 
           <div className="flex-1 md-min:mx-10 pt-12">
-            <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-4">
+            <p className="text-[#33FFA8] text-center md-min:text-left font-extrabold uppercase tracking-wide text-sm pb-4">
               Our Mission
             </p>
             <h2 className="hidden lg-min:block text-2xl text-black font-bold mb-5">

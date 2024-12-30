@@ -21,7 +21,7 @@ const CoursesFaq = () => {
         <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-sm pb-6">
           Frequently Asked Questions (FAQ)
         </p> 
-          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto px-28">
+          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto md-min:px-28">
             Here are some of Our Frequently Asked Questions
           </h1>
           <div className="faq pb-2 md-min:px-10">

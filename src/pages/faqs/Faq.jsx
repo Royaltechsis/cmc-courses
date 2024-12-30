@@ -75,15 +75,15 @@ const Faq = () => {
   };
 
   return (
-    <div className="p-5 pt-20">
+    <div className="p-5 md-min:pt-20 pt-8">
       <section className="w-full items-center justify-center text-center">
-        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-6xl pb-10">
+        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-3xl md-min:text-6xl md-min:pb-10">
             FAQ
         </h1>
-          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto lg-min:px-28">
+          <h1 className=" text-xl md:text-xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto lg-min:px-28">
             Ask us anything
           </h1>
-        <h1 className="text-lg">
+        <h1 className="md-min:text-lg text-sm">
           Have any questions? We're here to assist you
         </h1>
       </section>
@@ -94,7 +94,7 @@ const Faq = () => {
           placeholder="Search FAQs"
           value={searchQuery}
           onChange={handleInputChange}
-          className="p-2 pl-10 border border-[#22F9D0] rounded-[30px] w-full text-[#53686A] outline-none"
+          className="p-2 pl-10 border border-[#22F9D0] md-min:text-base text-sm rounded-[30px] w-full text-[#53686A] outline-none"
         />
         <IoMdSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
         {showDropdown && (
@@ -144,7 +144,7 @@ const Faq = () => {
       </div>
 
       <div
-        className="faq-inner text-sm mt-8 py-16 lg-min:px-8 px-2 rounded-[20px] lg-min:rounded-none flex justify-center items-center 
+        className="faq-inner text-sm mt-8md-min:py-16 py-5 lg-min:px-8 px-2 rounded-[20px] lg-min:rounded-none flex justify-center items-center 
         flex-col space-y-8"
       >
         {filteredQuestions.map(({ id, question, answer }, index) => {
@@ -202,7 +202,7 @@ const Faq = () => {
             </p>
           </div>
 
-          <p className="w-fit mt-1 px-3 py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black border-black border-[1px] cursor-pointer">
+          <p className="w-fit mt-1 md-min:px-3 md-min:py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black md-min:text-base text-xs px-2 py-2 border-black border-[1px] cursor-pointer">
             Get in touch
           </p>
         </div>

@@ -115,11 +115,11 @@ const TopAffiliates = () => {
     <section className="overflow-hidden relative">
       <div className="w-full items-center justify-center text-center mt-28">
       <div className="relative text-center">
-        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-6">
+        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide md-min:text-sm text-xs md-min:pb-6 pb-3">
             Our Affiliates
         </p>  
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto px-28 mb-10">
+        <h1 className="text-xl md-min:text-4xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28 mb-10">
           Hear from Our Top Affiliates: Real Success Stories
         </h1>
       </div>
@@ -173,27 +173,27 @@ const TopAffiliates = () => {
             ))}
           </Slider>
         </div>
-        <div className="benefits flex-1 flex flex-col space-y-8 pt-14 justify-center">
+        <div className="benefits flex-1 flex flex-col md-min:space-y-8 pt-14 justify-center">
           {benefits.map(({ Title, quote }, index) => {
             return (
               <div
                 key={index}
-                className="py-6 border-b-2 border-b-gray-300 cursor-pointer"
+                className="md-min:py-6 pt-3 border-b-2 border-b-gray-300 cursor-pointer"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 <div className="flex justify-between">
-                  <p className="font-semibold text-2xl">{Title}</p>
+                  <p className="font-semibold md-min:text-2xl text-lg">{Title}</p>
                   <div>
                     <IoIosArrowDown
-                      size={40}
+                      // size={40}
                       className={`${
-                        openIndex === index ? "rotate-180" : "rotate-0"
-                      } transition-all duration-500 ease-in-out`}
+                        openIndex === index ? "rotate-180 text-lg md-min:text-3xl" : "rotate-0"
+                      } transition-all duration-500 ease-in-out text-lg md-min:text-3xl`}
                     />
                   </div>
                 </div>
                 <p
-                  className={`mt-7 text-[#464646] font-semibold text-sm overflow-hidden transition-all duration-200 ease-in-out ${
+                  className={`mt-7 text-[#464646] font-semibold md-min:text-sm text-xs overflow-hidden transition-all duration-200 ease-in-out ${
                     openIndex === index ? "h-full" : "h-0"
                   }`}
                 >

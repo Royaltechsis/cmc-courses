@@ -6,7 +6,7 @@ const About_3 = () => {
   return (
     <>
       <section className="px-3 pt-3">
-        <div className="flex flex-col-reverse lg-min:flex-row items-center justify-between md-min:px-5 pt-20 pb-10">
+        <div className="flex md-min:flex-col-reverse  flex-col lg-min:flex-row items-center justify-between md-min:px-5 pt-20 pb-10">
           <div className="flex-1 lg-min:px-20 mt-12 lg-min:mt-0">
             <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-4">
               Our Vision
@@ -14,7 +14,7 @@ const About_3 = () => {
             <h2 className="hidden lg-min:block text-2xl text-black font-bold mb-5">
               Cultivating a Brighter Learning and Earning Future For Everyone
             </h2>
-            <p className="text-gray-500 text-base sm:text-sm pr-20">
+            <p className="text-gray-500 text-base sm:text-sm md-min:pr-20">
               At ExpertSkillz, we envision a future where anyone can access the
               skills they need to succeed, regardless of their background or
               location. By continuously innovating and adapting to the changing
@@ -23,13 +23,13 @@ const About_3 = () => {
             </p>
           </div>
 
-          <div className="relative">
+          <div className="relative md-min:inline-block flex items-center justify-center mt-4  md-min:mt-0">
             {/* Main about image */} 
-            <div className="relative inline-block">
+            <div className="relative md-min:inline-block md-min:inline-block flex items-center justify-center mt-4  md-min:mt-0">
             <img
               src={aboutimg3}
               alt="About Image"
-              className="relative z-10 ml-6 sm:m-0 w-[80%] sm:w-[90%] lg:w-[70%] max-w-[400px] h-auto"
+              className="relative z-10  md-min:ml-6 md-min:w-[80%] w-[80%] md-min:max-w-[400px] h-auto"
             />
 
             {/* Top-right decorative image */}

@@ -58,32 +58,32 @@ const Affiliate = () => {
         </div>
       )}
     <section
-          className="hero bg-cover bg-center py-10 mb-40 pt-28 h-[680px] w-full relative z-10 grid items-center"
+          className="hero bg-cover bg-center py-10 md-min:mb-40 pt-28 h-[680px] w-full relative z-10 grid items-center"
           style={{ backgroundImage: `url(${Hero})` }}
         >
           <div className="overlay bg-black opacity-[50%] absolute top-0 h-[680px] w-full -z-10"></div>
           <div className="outer pb-6 text-white item-center text-center">
           <div className="flex flex-col lg-min:flex-row items-center justify-between sm:p-3 pt-5">
             <div className="flex-1 flex-col space-y-8 leading-tight">
-              <h2 className="text-[60px] sm:text-[64px] font-bold pb-6 leading-[1.3]">
+              <h2 className=" text-[32px]  md-min:text-[64px] font-bold md-min:pb-6 leading-[1.3]">
                 Earn Working from Home
               </h2>
-              <p className="text-2xl font-semibold">
+              <p className="md-min:text-2xl  text-lg font-semibold">
                 Work from home as an affiliate on ExpertSkillz and receive weekly payments.
               </p>
-              <p className="text-xl font-bold">
+              <p className="md-min:text-xl text-md font-bold">
                 Don’t waste time; register as an affiliate now!
               </p>
-              <div className="items-center text-center">
+              <div className="items-center  gap-2 text-center ">
                 {/* Custom Button */}
                 <NavLink to={"/pricing"}>
-                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white font-bold text-lg px-6 py-3 m-4 items-center">
+                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white  md-min:text-lg text-sm mb-3 px-4 py-2 font-bold md-min:px-6 md-min:py-3 md-min:mt-4 items-center">
                   Become an Affiliate <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                   </button>
                 </NavLink>
                 <button
                   onClick={handleDemoClick}
-                  className="rounded-md border border-[#33FFA8] text-[#33FFA8] font-bold text-lg px-6 py-3 hover:bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:text-white transition-all duration-500 ease-in-out items-center"
+                  className="rounded-md border border-[#33FFA8] text-[#33FFA8] font-bold md-min:text-lg text-sm md-min:px-6 md-min:py-3 px-4 py-2 hover:bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:text-white transition-all duration-500 ease-in-out items-center"
                 >
                   View Demo <FontAwesomeIcon icon={faPlay} className="ml-2" />
                 </button>

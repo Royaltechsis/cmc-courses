@@ -10,7 +10,7 @@ const Sidebar = () => {
   const isActive = (path) => location.pathname.startsWith(path);
 
   return (
-    <div className="w-1/4 h-full bg-[#F6FFFB] shadow-2xl flex flex-col">
+    <div className="w-1/4 h-full bg-[#F6FFFB] shadow-2xl hidden md-min:flex flex-col">
       {/* Logo Section */}
       <div className="ml-5 mt-10">
         <Link

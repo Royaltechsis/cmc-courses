@@ -38,7 +38,7 @@ const FeaturedCourses = () => {
               <AiFillStar size={16} className="text-yellow-400" /> {rating} ({reviews})
             </p>
           </div>
-          <p className="text-md text-gray-800 font-bold mb-5">{description}</p>
+          <p className="md-min:text-md text-sm text-gray-800 font-bold mb-5">{description}</p>
           <div className="flex flex-wrap items-center gap-3 text-sm text-gray-600 mb-4">
             <p className="flex items-center capitalize gap-1 font-bold text-gray-400">
               <MdOutlineSchool size={16} className="text-[#33FFA8]" /> {modules}
@@ -49,7 +49,7 @@ const FeaturedCourses = () => {
           </div>
           <div className="flex justify-between items-center">
             <NavLink to={title.toLowerCase() === "affiliate marketing" ? "https://expertskillz.pledre.school/course-details/complete-affiliate-mastery-course-cmc" : "#"}>
-              <p className="font-bold text-gray-800">
+              <p className="font-bold text-gray-800 md-min:text-base  text-sm">
                 Course Status: {title.toLowerCase() === "affiliate marketing" ? "opened" : "locked"}
               </p>
             </NavLink>
@@ -70,14 +70,14 @@ const FeaturedCourses = () => {
 
   return (
     <div className="py-4 px-4 md-min:px-10">
-      <h1 className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-sm pb-6">
+      <h1 className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-xs md-min:text-sm pb-6">
         featured courses
       </h1>
 
       {/* Popular Courses Section */}
-      <section className="Popular pt-10 pb-10">
-        <h1 className="text-2xl capitalize md:text-4xl font-bold text-gray-800">popular courses</h1>
-        <div className="grid grid-cols-3 tablet:grid-cols-2 gap-8 sm:flex sm:flex-col mt-14">
+      <section className="Popular md-min:pt-10 md-min:pb-10">
+        <h1 className="text-2xl capitalize md-min::text-4xl font-bold text-gray-800">popular courses</h1>
+        <div className="grid grid-cols-3 tablet:grid-cols-2 gap-8 sm:flex sm:flex-col md-min:mt-14 mt-8">
           {popular_Courses_Data.map((course, index) => renderCourseCard(course, index, true))}
         </div>
       </section>

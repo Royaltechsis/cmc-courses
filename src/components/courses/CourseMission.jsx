@@ -11,14 +11,14 @@ const CourseMission = () => {
           <img src={background} alt="line" className="w-full object-cover" />
         </div>
 
-        <div className="lg-min:flex md-min:px-10 lg-min:px-10 pb-10 pt-16">
+        <div className="lg-min:flex md-min:px-10 lg-min:px-10 pb-10 md-min:pt-16 pt-4">
           {/* Left Text Section */}
           <div className="flex-1 flex-col lg-min:pt-24 space-y-5 lg-min:pr-28">
-            <h1 className="font-bold text-2xl leading-[1.5]">
+            <h1 className="font-bold md-min:text-2xl text-lg  leading-[1.5]">
               Everything you can do in a physical classroom,{" "}
               <span className="text-[#2afbbc]">you can do with ExpertSkillz</span>
             </h1>
-            <p className="font-normal text-base text-[#4F4E55] 3xl:w-[600px] 3xl:text-2xl">
+            <p className="font-normal md-min:text-base text-sm text-[#4F4E55] 3xl:w-[600px] 3xl:text-2xl">
               Experience the versatility of ExpertSkillz. Our academy offers all
               the benefits of a physical classroom, from interactive learning to
               personalized support, in a convenient online environment. Explore

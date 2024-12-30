@@ -28,9 +28,9 @@ const FooterSection1 = () => {
     <>
       <div className="flex flex-col space-y-11 lg-min:space-y-0 justify-between w-full h-full">
         {/* <div className="w-1/2 gap-5"> */}
-        <div className="pr-28">
+        <div className="md-min:pr-28">
         <div>
-          <h1 className="text-3xl font-sans font-semibold text-white">
+          <h1 className="md-min:text-3xl text-2xl font-sans font-semibold text-white">
             {isDiff ? "See what our Affiliates are Saying About": "See what People are Saying About"} {" "}
             <span className="text-[#33FFA8]">ExpertSkillz</span>
           </h1>

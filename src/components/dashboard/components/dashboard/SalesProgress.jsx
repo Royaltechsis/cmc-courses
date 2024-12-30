@@ -13,17 +13,17 @@ const SalesProgress = ({ totalSales = 500 }) => {  // Default to 0 if totalSales
         <div className="bg-[#F6FFFB] rounded-lg shadow-md p-6 mb-6">
             {/* Header with Title and Legend */}
             <div className="flex justify-between items-center mb-4">
-                <h3 className="font-semibold text-lg">Sales Progress</h3>
+                <h3 className="font-semibold md-min:text-lg text-sm">Sales Progress</h3>
                 
                 {/* Legend for Sales Count and Percentage */}
                 <div className="flex space-x-4">
                     <div className="flex items-center">
                         <span className="w-3 h-3 rounded-[3px] bg-[#33FFA8] mr-2"></span>
-                        <span className="text-sm font-medium text-gray-600">Sales count</span>
+                        <span className="md-min:text-sm text-xs font-medium text-gray-600">Sales count</span>
                     </div>
                     <div className="flex items-center">
                         <span className="w-3 h-3 rounded-[3px] bg-purple-500 mr-2"></span>
-                        <span className="text-sm font-medium text-gray-600">Percentage</span>
+                        <span className="md-min:text-sm text-xs font-medium text-gray-600">Percentage</span>
                     </div>
                 </div>
             </div>

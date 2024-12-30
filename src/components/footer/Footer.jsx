@@ -28,22 +28,22 @@ function Footer() {
           <FooterSection1 />
           <FooterSection2 />
         </div>
-        <div className="w-full flex text-[#A6A6A6] justify-between items-center px-20 pb-5 pt-10">
+        <div className="w-full flex text-[#A6A6A6] justify-between items-center  md-min:row  flex-col md-min:px-20 pb-5 pt-10">
           <div>
-            <p>
+            <p className='md-min:text-xl text-xs'>
               © {year} ExpertSkillz. All rights reserved.
             </p>
           </div>
           {/* Terms and policy buttons */}
-          <div>
+          <div className=''>
             <NavLink to="/terms-and-conditions">
-              <button className="text-white hover:text-[#33FFA8] transition-all duration-700">
+              <button className="text-white hover:text-[#33FFA8] transition-all duration-700 md-min:text-xl text-xs">
                 Terms and Conditions
               </button>
             </NavLink>
             {" | "}
             <NavLink to="/privacy-policy">
-              <button className="text-white hover:text-[#33FFA8] transition-all duration-700">
+              <button className="text-white hover:text-[#33FFA8] transition-all duration-700 md-min:text-xl text-xs">
                 Privacy Policy
               </button>
             </NavLink>

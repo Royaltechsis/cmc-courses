@@ -33,7 +33,7 @@ module.exports = {
       },
       screens: {
         "sm-min": { min: "640px" },
-        "md-min": { min: "768px" },
+        "md-min": { min: "800px" },
         "lg-min": { min: "1024px" },
         "xl-min": { min: "1280px" },
         "3xl": { min: "1680px" },

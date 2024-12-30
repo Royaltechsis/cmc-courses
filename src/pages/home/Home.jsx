@@ -71,7 +71,7 @@ function Home() {
       <section className={`${showDemo ? "blur-sm" : ""}`}>
         {/* Hero Section */}
         <div
-          className="relative font-nunito "
+          className="relative font-nunito py-3 "
           style={{
             background: "linear-gradient(180deg, #B7ECD5 30%, #E7FFF5 70%)",
             minHeight: `${imageHeight}px`, // Ensure the section has at least the image height
@@ -80,12 +80,12 @@ function Home() {
           <div className="lg-min:flex justify-between px-3 md-min:px-9 space-x-5 items-center h-full">
             {/* Left Content */}
             <div className="lg-min:w-[50%] pt-10 md-min:pt-20 text-center lg-min:text-left w-full">
-              <h1 className="font-extrabold text-[#62677B] pb-4">WELCOME TO EXPERTSKILLZ</h1>
-              <h2 className="font-extrabold text-5xl leading-[60px] md-min:leading-[70px] text-[#0E1133]">
+              <h1 className="font-extrabold text-[#62677B] pb-4 hidden md-min:block">WELCOME TO EXPERTSKILLZ</h1>
+              <h2 className="font-extrabold  text-2xl md-min:text-5xl md-min:leading-[70px] text-[#0E1133]">
                 Discover limitless learning and earning possibilities{" "}
                 <span className="text-[#33FFA8]"> Online</span>
               </h2>
-              <p className="font-semibold text-lg leading-[28px] mt-6 text-[#62677B]">
+              <p className="font-semibold text-sm md-min:text-lg md-min:leading-[28px] mt-6 text-[#62677B]">
                 Unleash Your Potential: Explore a valuable online skill and
                 learn how to develop it effectively to grow your finances with
                 ExpertSkillz.
@@ -93,13 +93,13 @@ function Home() {
               {/* Buttons */}
               <div className="mt-10 flex justify-center lg-min:justify-start space-x-4">
                 <NavLink to={"/get-started"}>
-                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-black font-bold text-lg px-4 py-2 flex items-center">
+                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-sm text-black font-bold md-min:text-lg px-2 py-3  flex items-center">
                     Get Started Now <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
                   </button>
                 </NavLink>
                 <button
                   onClick={handleDemoClick}
-                  className="rounded-md border border-[#33FFA8] text-[#33FFA8] font-bold text-lg px-6 py-3 hover:bg-[#e0fdf9] flex items-center"
+                  className="rounded-md border border-[#33FFA8] text-[#33FFA8] font-bold md-min:text-lg text-sm px-2 py-3 hover:bg-[#e0fdf9] flex items-center"
                 >
                   View Demo <FontAwesomeIcon icon={faPlay} className="ml-2" />
                 </button>

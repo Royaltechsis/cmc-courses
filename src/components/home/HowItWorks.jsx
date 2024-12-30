@@ -23,16 +23,16 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-20 pb-48 px-5 lg:px-20">
+    <section className="py-20 pb-48 px-5 md-min:px-20">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-6">
+        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide md-min:text-sm text-xs md-min:pb-6 pb-3">
           How It Works
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-[40px] max-w-3xl mx-auto px-28">
+        <h2 className="md-min:text-3xl text-xl font-bold text-center  text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28">
           Your Online Learning and Earning Journey Made Easy
         </h2>
-        <p className="mt-4 text-gray-600 text-lg leading-7 max-w-3xl mx-auto">
+        <p className="mt-4 text-gray-600 text-sm md-min:text-lg leading-7 max-w-3xl mx-auto">
         Stop Struggling alone, learning and succeding online 
         hasn’t been easy for many. But with ExpertSkillz today, 
         It’s easier than you think.
@@ -40,9 +40,9 @@ const HowItWorks = () => {
       </div>
 
       {/* Steps Section */}
-      <div className="grid  grid-cols-1 lg-min:grid-cols-3 md-min:grid-cols-2 md-min:gap-16  md:gap-y-10 justify-between mt-12 px-11">
+      <div className="grid  grid-cols-1 lg-min:grid-cols-3 md-min:grid-cols-2 md-min:gap-16  md:gap-y-10 justify-between mt-12 md-min:px-11 px-3">
         {howItWorks.map((step, index) => (
-          <div key={index} className="flex flex-col items-start">
+          <div key={index} className="flex flex-col md-min:items-start items-center">
             {/* Number Circle */}
             <div className="text-white bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-full w-16 h-16 flex items-center justify-center text-xl font-bold mb-4">
               {step.number}

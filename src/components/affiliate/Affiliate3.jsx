@@ -59,11 +59,11 @@ const Affiliate3 = () => {
           style={{ backgroundImage: `url(${wallpaper})` }}
         >
           <div className="overlay bg-black opacity-70 lg-min:opacity-65 absolute top-0 h-[600px] w-full -z-10"></div>
-          <div className="flex flex-col justify-start space-y-5 py-5 pr-56 ml-10 md-min:pl-11">
-            <h1 className="font-nunito font-bold text-[30px] leading-[54px] text-white sm:text-xl">
+          <div className="flex flex-col justify-start space-y-5 py-5 md-min:pr-56 ml-10 md-min:pl-11">
+            <h1 className="font-nunito font-bold text-xl md-min:text-[30px] md-min:leading-[54px] text-white sm:text-xl">
               Creating a passive income stream has never been simpler.
             </h1>
-            <p className="font-medium text-[20px] leading-[35px] text-white lg-min:pr-20">
+            <p className="font-medium md-min:text-[20px] text-md md-min:leading-[35px] text-white lg-min:pr-20">
               Imagine earning passive income daily by affiliating for ExpertSkillz
               from home, using just your smartphone or laptop. Unfamiliar with
               affiliate marketing? No problem! Enroll in our training program to learn
@@ -71,25 +71,26 @@ const Affiliate3 = () => {
             </p>
 
             <NavLink to={"/courses"}>
-              <button className="rounded-lg bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white font-bold text-lg px-6 py-2 items-center">
+              <button className="rounded-lg bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white font-bold text-sm md-min:text-lg md-min:px-6 md-min:py-2  px-4 py-2 items-center">
                 Get Started
               </button>
             </NavLink>
           </div>
+
         </div>
 
-        <div className="px-5 md-min:px-16 mt-36">
-          <div className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] py-16 mx-20 rounded-[20px] relative z-[1]">
+        <div className="px-5 md-min:px-16  mt-36">
+          <div className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] py-16 md-min:mx-20 rounded-[20px] relative z-[1]">
             <div className="overlay bg-black rounded-[20px] opacity-10 absolute top-0 h-full w-full -z-[1]"></div>
             <div className="flex flex-col text-center items-center justify-start space-y-5 py-5 px-2 md-min:px-4 md-min:pl-11">
               <h1 className="font-nunito font-semibold text-[40px] leading-[54px] text-white sm:text-xl">
                 It’s never been easier
               </h1>
-              <p className="font-medium font-semibold text-[20px] pt-15 pb-16 leading-[40px] tracking-wide text-white max-w-3xl mx-auto lg-min:px-20">
+              <p className="font-semibold md-min:text-[20px] text-lg pt-15 md-min:pb-16 leading-[40px] tracking-wide text-white max-w-3xl mx-auto md-min:px-20">
                 Becoming a recognized affiliate partner has never 
                 been easier. Join ExpertSkillz and start today!
               </p>
-              <div className="flex flex-col-reverse md-min:flex-row justify-center md-min:space-x-6 space-y-7 md-min:space-y-0">
+              <div className="flex flex-col-reverse md-min:flex-row justify-center md-min:space-x-6  gap-3 space-y-7 md-min:space-y-0">
                 <div>
                   <NavLink to={"/pricing"}>
                     <button className="bg-white border-white border-2 text-[#33FFA8] font-bold py-2 px-4 rounded-[10px]">

@@ -72,64 +72,64 @@ const FooterSection2 = () => {
           <div className="text-white">
             <p>Join Our Newsletter</p>
           </div>
-          <div className="relative flex border-white rounded-full border-2 p-2 ">
+          <div className="relative flex border-white rounded-full border-2 md-min:p-2 p-1 ">
             <input
               type="text"
               placeholder="Enter your email here"
-              className="outline-none text-white  w-full bg-transparent"
+              className="outline-none text-white text-xs  w-full bg-transparent"
             />
             <button
               type="submit"
               className=" text-white text-fontSize2 cursor-pointer border border-background3 background3 rounded-full p-2 "
             >
-              <FaChevronRight />
+              <FaChevronRight className='text-sm md-min:text-2xl' />
             </button>
           </div>
         </div>
         {/* Send message section 2 */}
         <div className="flex flex-wrap justify-between mt-10">
           <div className="text-white">
-            <h1 className="text-3xl text-[#33FFA8] mb-6">Company</h1>
+            <h1 className="md-min:text-3xl text-2xl text-[#33FFA8] md-min:mb-6 mb-3">Company</h1>
             <NavLink to="/" className="nav-link">
-              <p className="mb-6 font-medium text-xl text-white">Home</p>
+              <p className="md-min:mb-6 mb-3 font-medium md-min:text-xl text-sm text-white">Home</p>
             </NavLink>
             <NavLink to="/about" className="nav-link">
-              <p className="mb-6 font-medium text-xl  text-white">About</p>
+              <p className="md-min:mb-6 mb-3 font-medium md-min:text-xl text-sm   text-white">About</p>
             </NavLink>
             <NavLink to="/courses" className="nav-link">
-              <p className="mb-6 font-medium text-xl  text-white">
+              <p className="md-min:mb-6  mb-3 font-medium md-min:text-xl text-sm  text-white">
                 Our Courses
               </p>
             </NavLink>
             <NavLink to="/affiliate" className="nav-link">
-              <p className="mb-6 font-medium text-xl  text-white">Affiliate</p>
+              <p className="md-min:mb-6 mb-3 font-medium  text-white">Affiliate</p>
             </NavLink>
           </div>
           <div className="text-white">
-            <h1 className="text-3xl text-[#33FFA8] mb-6">Contact Us</h1>
-            <p className="mb-6 font-medium text-xl">
+            <h1 className="md-min:text-3xl text-xl text-[#33FFA8] md-min:mb-6">Contact Us</h1>
+            <p className="md-min:mb-6  mb-3 font-medium md-min:text-xl text-sm">
               wearexpertskillz@gmail.com
             </p>
             <p className="mb-2 font-bold text-base">Social Media</p>
             <div className="flex items-center space-x-3">
               <a href="https://www.instagram.com/wearexpertskillz?igsh=dWZlMnp5NTZzMnRq&utm_source=qr">
                 <div className=" rounded-lg border border-white p-2 bg-white">
-                  <img src={instagram} alt="Instagram" className="w-6 h-6" />
+                  <img src={instagram} alt="Instagram" className="md-min:w-6 md-min:h-6 w-4 h-4" />
                 </div>
               </a>
               <a href="https://www.facebook.com/profile.php?id=61554737001770&mibextid=LQQJ4d">
                 <div className="rounded-lg border border-white p-2 bg-white ml-2">
-                  <img src={facebook} alt="Facebook" className="w-6 h-6" />
+                  <img src={facebook} alt="Facebook" className="md-min:w-6 md-min:h-6 w-4 h-4" />
                 </div>
               </a>
               <a href="https://wa.link/cf2uth">
                 <div className="rounded-lg border border-white p-2 bg-white ml-2">
-                  <img src={whatsapp} alt="WhatsApp" className="w-6 h-6" />
+                  <img src={whatsapp} alt="WhatsApp" className="md-min:w-6 md-min:h-6 w-4 h-4" />
                 </div>
               </a>
               <a href="https://twitter.com/@expert_skillz">
                 <div className="rounded-lg border border-white p-2 bg-white ml-2">
-                  <img src={x} alt="X" className="w-6 h-6" />
+                  <img src={x} alt="X" className="md-min:w-6 md-min:h-6 w-4 h-4" />
                 </div>
               </a>
             </div>

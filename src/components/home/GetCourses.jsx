@@ -49,16 +49,16 @@ const GetCourses = () => {
       <div className="relative w-full mt-16 md-min:pt-0 px-4 md-min:px-10 3xl:px-20 h-full">
         {/* Header section */}
         <div className="relative text-center">
-        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-6">
+        <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-xs md-min:text-sm md-min:pb-6 pb-3">
             Get Courses
         </p>  
         </div>
         <div className="tracking-tight">
           {/* TODO  */}
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center leading-[40px]">
+          <h2 className=" text-xl md-min:text-3xl  font-bold text-gray-800 text-center leading-[40px]">
             Explore Our Popular Classes
           </h2>
-          <p className="mt-5 font-semibold leading-7 text-[#4F4E55] text-left md-min:text-center max-w-3xl mx-auto px-4">
+          <p className="mt-5 font-semibold  md-min:leading-7 text-[#4F4E55] text-left md-min:text-center max-w-3xl text-sm md-min:text-base mx-auto px-4">
           Unlock success with our done-for-you blueprints. Explore a variety of trending online courses and choose the one that best suits your interest and financial goals.
           </p>
         </div>

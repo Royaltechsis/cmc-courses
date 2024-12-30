@@ -13,7 +13,7 @@ const CoursesPick = () => {
           <div className="md-min:w-[1500px] ml-10">
             <img src={Img} alt="person" className="w-full" />
           </div>
-          <div className="w-full lg-min:w-40rem flex flex-col justify-between py-8 pb-20 pl-20 pr-40">
+          <div className="w-full lg-min:w-40rem flex flex-col justify-between py-8 pb-20 md-min:pl-20 md-min:pr-40">
           <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-4">
             Pick a Course
           </p>
