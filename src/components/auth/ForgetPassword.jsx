@@ -74,7 +74,7 @@ function ForgetPassword() {
                   />
                   <button
                     type="submit"
-                    className="w-1/2 mx-auto px-20 mb-10 text-center bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border border-black rounded-lg font-semibold text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#007dfe] duration-[0.3s]"
+                    className="w-1/2 mx-auto md-min:px-20 text-center mb-10 text-center bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border border-black rounded-lg font-semibold text-black transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-[#007dfe] duration-[0.3s]"
                   >
                     Submit
                   </button>

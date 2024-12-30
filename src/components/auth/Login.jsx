@@ -63,7 +63,7 @@ function Login() {
           </div>
           <div className="pt-3 heading text-center w-full flex justify-center">
             <p className="text-base px-10 lg-min:px-32 my-5 max-w-3xl mx-auto lg-min:px-16">
-              <span className="hidden lg-min:inline">
+              <span className=" lg-min:inline">
                 Log in to continue your learning journey and unlock new opportunities. Access your courses, track your
                 progress, and stay ahead in your chosen field. Let’s continue to grow and excel together!
               </span>
@@ -85,7 +85,7 @@ function Login() {
                 <form className="leading-10" onSubmit={signinUser}>
                   <div className="flex justify-center items-center pt-10 pb-6">
                     <button className="flex justify-center items-center md-min:w-[205px] gap-2 bg-white py-3 border-[#33FFA8] border-inset border-2 rounded-md text-black shadow-lg">
-                      <div className="w-5 h-5">
+                      <div className="w-5 h-5  p-2">
                         <img src={googleLogo} alt="Google Logo" className="w-full" />
                       </div>
                       <p className="text-sm"> Sign in with Google</p>

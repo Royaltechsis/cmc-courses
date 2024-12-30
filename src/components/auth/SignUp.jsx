@@ -99,8 +99,8 @@ function SignUp() {
             </p>
           </div>
           <div className="pt-3 heading text-center w-full flex justify-center">
-            <p className="text-base px-15 lg-min:px-32 my-5 max-w-3xl mx-auto lg-min:px-8">
-              <span className="hidden lg-min:inline">
+            <p className="text-base md-min:px-15 lg-min:px-32 my-5 max-w-3xl mx-auto lg-min:px-8">
+              <span className=" lg-min:inline">
                 Unlock your potential at the premier online skills learning academy today! Begin your 
                 journey of learning and growth with our extensive range of courses. Sign up 
                 now on ExpertSkillz to explore and excel in your chosen field!
