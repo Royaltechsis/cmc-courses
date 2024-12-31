@@ -16,7 +16,7 @@ const Questions = () => {
             help you on your learning journey, so don’t hesitate to reach out!
           </p>
         </div>
-        <div className="flex py-10 md-min:px-28 flex-col lg-min:flex-row sm:p-10 ">
+        <div className="flex py-10 md-min:px-28 flex-col lg-min:flex-row p-3 ">
           <div className="flex-1 hidden lg-min:block">
             <img
               src={illustration}
@@ -24,7 +24,7 @@ const Questions = () => {
               className="z-50 mx-10 sm:m-0"
             />
           </div>
-          <div className="flex-1">
+          <div className="flex-1 w-full">
             <div className="block border border-none my-0 md-min:my-10">
               <div className="flex flex-col gap-7">
                 <div className="lg-min:flex gap-5">

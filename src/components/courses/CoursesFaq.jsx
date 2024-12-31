@@ -87,7 +87,7 @@ const CoursesFaq = () => {
               ))}
               <div className="flex justify-center w-full">
                 <NavLink to="/faqs">
-                  <button className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border-black border-[1px] hover:background text-black w-[200px] font-bold py-2 px-4 rounded-[10px]">
+                  <button className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border-black border-[1px] hover:background text-black md-min:w-[200px] w-[130px] font-bold py-2 px-4 rounded-[10px]">
                     See More
                   </button>
                 </NavLink>

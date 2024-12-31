@@ -9,8 +9,8 @@ const CoursesPick = () => {
         <div className="relative text-center">
         </div>
         {/* About us body */}
-        <div className="relative mt-10 lg-min:flex space-x-6 justify-evenly md:justify-center items-center xl:justify-between max-w-screen-lg h-full w-full md-min:block flex flex-col ">
-          <div className="md-min:w-[1500px] ml-10">
+        <div className="relative mt-10 lg-min:flex md-min:space-x-6 px-3 justify-evenly md:justify-center items-center xl:justify-between max-w-screen-lg h-full w-full md-min:block flex flex-col ">
+          <div className="md-min:w-[1500px] md-min:ml-10">
             <img src={Img} alt="person" className="w-full" />
           </div>
           <div className="w-full lg-min:w-40rem flex flex-col justify-between py-8 pb-20 md-min:pl-20 md-min:pr-40">

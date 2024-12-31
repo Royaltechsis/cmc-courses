@@ -77,18 +77,18 @@ const Faq = () => {
   return (
     <div className="p-5 md-min:pt-20 pt-8">
       <section className="w-full items-center justify-center text-center">
-        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-3xl md-min:text-6xl md-min:pb-10">
+        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-3xl md-min:text-6xl pb-10">
             FAQ
         </h1>
           <h1 className=" text-xl md:text-xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto lg-min:px-28">
             Ask us anything
           </h1>
-        <h1 className="md-min:text-lg text-sm">
+        <h1 className="md-min:text-lg text-sm pb-10md-min:pb-0 ">
           Have any questions? We're here to assist you
-        </h1>
+        </h1> 
       </section>
 
-      <div className="relative mx-auto mt-4 w-full md-min:w-[496px] rounded-[30px] border-gray-200 border-[1px]">
+      <div className="relative mx-auto mt-4 w-full md-min:w-[496px] rounded-[30px] border-gray-200 border-[1px] ">
         <input
           type="text"
           placeholder="Search FAQs"
@@ -145,7 +145,7 @@ const Faq = () => {
 
       <div
         className="faq-inner text-sm mt-8md-min:py-16 py-5 lg-min:px-8 px-2 rounded-[20px] lg-min:rounded-none flex justify-center items-center 
-        flex-col space-y-8"
+        flex-col space-y-8 mt-10 md-min:mt-0"
       >
         {filteredQuestions.map(({ id, question, answer }, index) => {
           const originalIndex = data.findIndex(item => item.question === question); // Find the original index for scrolling
@@ -192,17 +192,17 @@ const Faq = () => {
 
       <div className="flex justify-center items-center mt-10 mb-32">
         <div
-          className="contact flex flex-col justify-between items-center md-min:flex-row  border-[#22F9D0] border-2 bg-[#f2fdf8] text-[#53686A] lg-min:w-[896px] 
-        lg-min:max-w-[80%] p-6 rounded-[11px]"
+          className="contact flex  justify-between items-center md-min:flex-row  border-[#22F9D0] border-2 bg-[#f2fdf8] text-[#53686A] lg-min:w-[896px] 
+        lg-min:max-w-[80%] md-min:p-6 p-3 rounded-[11px]"
         >
           <div className="word">
-            <p className="text-base font-semibold">Still have questions?</p>
-            <p className="text-sm">
+            <p className="md-min:text-base text-sm font-semibold">Still have questions?</p>
+            <p className="md-min:text-sm text-xs">
               Can't find the questions you're looking for?
             </p>
           </div>
 
-          <p className="w-fit mt-1 md-min:px-3 md-min:py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black md-min:text-base text-xs px-2 py-2 border-black border-[1px] cursor-pointer">
+          <p className="md-min:w-fit w-[200] mt-1 md-min:px-3 md-min:py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black md-min:text-base text-xs px-2 py-2 border-black border-[1px] cursor-pointer">
             Get in touch
           </p>
         </div>
