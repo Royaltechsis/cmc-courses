@@ -82,14 +82,14 @@ const FeaturedCourses = () => {
         </div>
       </section>
 
-      <p className="text-2xl capitalize text-center md:text-4xl font-bold text-gray-800 pt-10">
+      <p className="text-xl capitalize text-center md-min:text-4xl font-bold text-gray-800 pt-10">
         Recent Courses Testimonials
       </p>
       <Testimonials />
 
       {/* Recommended Courses Section */}
       <section className="Recommended pt-10">
-        <h1 className="text-2xl capitalize md:text-4xl font-bold text-gray-800">available recommended courses</h1>
+        <h1 className="text-xl capitalize md-min:text-4xl font-bold text-gray-800 text-center md-min:text-left">available recommended courses</h1>
         <div className="grid grid-cols-3 tablet:grid-cols-2 gap-8 sm:flex sm:flex-col mt-14">
           {recommended_Courses_Data.map((course, index) => renderCourseCard(course, index))}
         </div>
