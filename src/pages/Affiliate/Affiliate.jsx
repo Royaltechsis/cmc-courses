@@ -74,18 +74,18 @@ const Affiliate = () => {
               <p className="md-min:text-xl text-md font-bold">
                 Don’t waste time; register as an affiliate now!
               </p>
-              <div className="items-center  gap-2 text-center ">
+              <div className="flex items-center justify-center gap-3 text-center ">
                 {/* Custom Button */}
                 <NavLink to={"/pricing"}>
-                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white  md-min:text-lg text-sm mb-3 px-4 py-2 font-bold md-min:px-6 md-min:py-3 md-min:mt-4 items-center">
-                  Become an Affiliate <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+                  <button className="rounded-md bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:bg-[#0de1d1] text-white  md-min:text-lg text-sm  px-4 py-2 font-bold md-min:px-6 md-min:py-3 md-min:mt-4 items-center">
+                  Become an Affiliate <FontAwesomeIcon icon={faArrowRight} className="hidden md-min:block ml-2" />
                   </button>
                 </NavLink>
                 <button
                   onClick={handleDemoClick}
                   className="rounded-md border border-[#33FFA8] text-[#33FFA8] font-bold md-min:text-lg text-sm md-min:px-6 md-min:py-3 px-4 py-2 hover:bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] hover:text-white transition-all duration-500 ease-in-out items-center"
                 >
-                  View Demo <FontAwesomeIcon icon={faPlay} className="ml-2" />
+                  View Demo <FontAwesomeIcon icon={faPlay} className="hidden md-min:block ml-2" />
                 </button>
               </div>
             </div>

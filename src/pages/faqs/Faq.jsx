@@ -193,16 +193,16 @@ const Faq = () => {
       <div className="flex justify-center items-center mt-10 mb-32">
         <div
           className="contact flex  justify-between items-center md-min:flex-row  border-[#22F9D0] border-2 bg-[#f2fdf8] text-[#53686A] lg-min:w-[896px] 
-        lg-min:max-w-[80%] md-min:p-6 p-3 rounded-[11px]"
+        lg-min:max-w-[80%] gap-4 md-min:p-6 p-3 rounded-[11px]"
         >
           <div className="word">
-            <p className="md-min:text-base text-sm font-semibold">Still have questions?</p>
+            <p className="md:min:text-base text-sm font-semibold">Still have questions?</p>
             <p className="md-min:text-sm text-xs">
               Can't find the questions you're looking for?
             </p>
           </div>
 
-          <p className="md-min:w-fit w-[200] mt-1 md-min:px-3 md-min:py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black md-min:text-base text-xs px-2 py-2 border-black border-[1px] cursor-pointer">
+          <p className="md-min:w-fit flex items-center justify-center w-[135px] mt-1 md-min:px-3 md-min:py-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] font-bold rounded-[11px] text-black md-min:text-base text-xs px-2 py-2 border-black border-[1px] cursor-pointer">
             Get in touch
           </p>
         </div>

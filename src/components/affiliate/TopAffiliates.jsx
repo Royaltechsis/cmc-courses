@@ -112,7 +112,7 @@ const TopAffiliates = () => {
   };
 
   return (
-    <section className="overflow-hidden relative">
+    <section className="overflow-hidden relative px-4">
       <div className="w-full items-center justify-center text-center mt-28">
       <div className="relative text-center">
         <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide md-min:text-sm text-xs md-min:pb-6 pb-3">

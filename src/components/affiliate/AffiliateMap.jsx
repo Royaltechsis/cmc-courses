@@ -2,7 +2,7 @@ import React from "react";
 import map from "../../assets/images/map.png";
 const AffiliateMap = () => {
   return (
-    <div className="md-min:text-center py-8 mt-3 ">
+    <div className="md-min:text-center py-8 mt-3 px-4 ">
       <div className="map-img w-full -my-36 h-auto flex justify-center mt-3 ">
         <img src={map} alt="" className="w-300 h-250 object-cover mt-4" />
       </div>

@@ -13,21 +13,21 @@ const PricingCard = () => {
 
 
   return (
-    <div className='pt-24 pb-40 grid place-items-center'>
-        <div className="pricing_card w-[550px] drop-shadow-[0_5px_rgba(51,255,168,1)]">
+    <div className='md-min:pt-24 md-min:pb-40 pt-10 grid place-items-center justify-center w-full'>
+        <div className="pricing_card flex flex-col  w-11/12 md-min:w-[550px] drop-shadow-[0_5px_rgba(51,255,168,1)]">
 
             {/*---------- PRICING HEADING ------------*/}
-            <div className="price-heading p-6 px-14 rounded-t-[20px] bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] flex justify-between items-center space-x-12  shadow-xl">
-                <div className="flex space-x-3">
+            <div className="price-heading md-min:p-6 p-3 md-min:px-14 rounded-t-[20px] px-7 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] flex justify-between items-center space-x-12  shadow-xl">
+                <div className="flex space-x-3 items-center">
                     <FaGlobe size={28} />
-                    <p className='font-bold text-xl'>Affiliate Platform</p>
+                    <p className='font-bold md-min:text-xl text-sm'>Affiliate Platform</p>
                 </div>
                 <div className="flex p-1 bg-white space-x-2 items-center">
-                    <div className="flag w-[50px] h-[50px]">
+                    <div className="flag w-[25px] h-[25px] md-min:w-[50] md-min:h-[50]">
                         <img src={flag} alt="flag name" className='w-full h-full rounded-sm object-contain'/>
                     </div>
                     <select name="country" id="country" className='font-bold w-[4rem] border-l-2 border-gray-400 h-full'>
-                        <option value="NGN" className="absolute flex p-1 bg-white space-x-2 items-center" selected>
+                        <option value="NGN" className="absolute flex p-1 bg-white space-x-2 items-center text-base md-min:text-sm" selected>
                            
                                 <div className="flag w-[50px] h-[50px]">
                                     <img src={flag} alt="flag name" className='w-full h-full rounded-sm object-contain'/>
@@ -41,19 +41,19 @@ const PricingCard = () => {
             </div>
 
             {/* ---------------- PRICING BODY -------------*/}
-            <div className="bg-white px-14 py-10 flex flex-col space-y-6 rounded-b-2xl">
+            <div className="bg-white md-min:px-14 px-7 py-10 flex flex-col space-y-6 rounded-b-2xl">
             <p className='font-semibold text-lg'>Make a one-time payment to create your<br/> ExpertSkillz affiliate account.</p>
-            <div className="flex justify-start space-x-3 items-baseline">
-            <p className='font-bold text-5xl'>NGN 2000</p>
+            <div className="flex md-min:justify-start md-min:space-x-3  items-baseline justify-between">
+            <p className='font-bold md-min:text-5xl  text-3xl'>NGN 2000</p>
             <p className='text-gray-400 text-base font-bold'>/ one-time</p>
             </div>
-            <p className='text-[#33FFA8] font-bold text-3xl'>Features</p>
+            <p className='text-[#33FFA8] font-bold md-min:text-3xl text-xl '>Features</p>
 
             <div className="space-y-6 pb-5">
                 {Features.map(item=>(
                         <div className="flex space-x-4">
                           
-                            <FaCheck fill="" size={26} className="p-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-full text-white"/>
+                            <FaCheck fill="" size={23} className="p-2 bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-full text-white"/>
                             <p>{item}</p>
                         </div>
                     )
@@ -62,7 +62,7 @@ const PricingCard = () => {
 
             <button
                   onClick={() => window.location.href = "/pricing"}
-                  className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border-black border-[1px] hover:background3 text-black text-lg font-bold py-3 mx-12 rounded-[10px]"
+                  className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] border-black border-[1px] hover:background3 text-black md-min:text-lg text-sm font-bold md-min:py-3 py-1 mx-12 rounded-[10px]"
                 >
                   Get Started
             </button>

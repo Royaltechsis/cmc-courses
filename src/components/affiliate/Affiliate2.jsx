@@ -7,9 +7,16 @@ const Affiliate2 = () => {
       <section>
         <div className="lg-min:flex px-6 md-min:px-12 lg-min:px-28 pb-10 pt-16">
           <div className="flex-1 flex-col py-10 space-y-5">
-            <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-xs  md-min:text-sm">
+            <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-center md-min:text-left text-xs  md-min:text-sm">
               Our Valued Partner
             </p>
+            <div className="flex-1 block md-min:hidden">
+            <img
+              src={affiliateDesignImage}
+              alt="card image"
+              className="w-[800px]"
+            />
+          </div>
             <h1 className="font-bold text-xl md-min:text-3xl leading-[1.5]">
               What Difference does it make Affiliating for ExpertSkillz.
             </h1>
@@ -29,7 +36,7 @@ const Affiliate2 = () => {
                 </button>
               </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 md-min:block hidden">
             <img
               src={affiliateDesignImage}
               alt="card image"

@@ -21,14 +21,14 @@ const AffiliateFaq = () => {
   return (
     <section className="px-2 md-min:px-10 mb-20">
       <div className="mt-28 z-0 w-full">
-      <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-sm pb-6">
+      <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide md-min:text-sm text-xs pb-6">
           Frequently Asked Questions (FAQ)
         </p> 
-          <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto px-28">
+          <h1 className="text-2xl md-min:text-4xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28 px-2">
             Here are some of Our Frequently Asked Questions
           </h1>
         <div className="faq pb-2 lg-min:px-10">
-          <div className="faq-inner text-sm bg-[#F7F7FB] mt-20 p-6 lg-min:p-16 rounded-[20px] flex justify-center items-center flex-col space-y-8">
+          <div className="faq-inner text-sm bg-[#F7F7FB] md-min:mt-20  p-6 lg-min:p-16 rounded-[20px] flex justify-center items-center flex-col space-y-8">
             {affiliateData.slice(0, 4).map(({ id, question, answer }, index) => (
               <div
                 className={`faq-each bg-white text-black lg-min:max-w-full w-full h-auto lg-min:p-11 py-2 px-4 lg-min:rounded-2xl rounded-[18px] ${openStates[index] ? "border-[#11F1F1] border-4" : ""}`}

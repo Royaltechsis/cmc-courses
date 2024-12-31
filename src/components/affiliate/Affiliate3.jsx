@@ -59,7 +59,7 @@ const Affiliate3 = () => {
           style={{ backgroundImage: `url(${wallpaper})` }}
         >
           <div className="overlay bg-black opacity-70 lg-min:opacity-65 absolute top-0 h-[600px] w-full -z-10"></div>
-          <div className="flex flex-col justify-start space-y-5 py-5 md-min:pr-56 ml-10 md-min:pl-11">
+          <div className="flex flex-col justify-start space-y-5 py-5 md-min:pr-56 md-min:ml-10 ml-6 m-3 md-min:pl-11">
             <h1 className="font-nunito font-bold text-xl md-min:text-[30px] md-min:leading-[54px] text-white sm:text-xl">
               Creating a passive income stream has never been simpler.
             </h1>
@@ -86,14 +86,14 @@ const Affiliate3 = () => {
               <h1 className="font-nunito font-semibold text-[40px] leading-[54px] text-white sm:text-xl">
                 It’s never been easier
               </h1>
-              <p className="font-semibold md-min:text-[20px] text-lg pt-15 md-min:pb-16 leading-[40px] tracking-wide text-white max-w-3xl mx-auto md-min:px-20">
+              <p className="font-semibold md-min:text-[20px] text-base pt-15 md-min:pb-16 md-min:leading-[40px] md-min:tracking-wide text-white max-w-3xl mx-auto md-min:px-20">
                 Becoming a recognized affiliate partner has never 
                 been easier. Join ExpertSkillz and start today!
               </p>
-              <div className="flex flex-col-reverse md-min:flex-row justify-center md-min:space-x-6  gap-3 space-y-7 md-min:space-y-0">
+              <div className="flex flex-row justify-center items-center md-min:space-x-6  gap-3 space-y-7 md-min:space-y-0">
                 <div>
                   <NavLink to={"/pricing"}>
-                    <button className="bg-white border-white border-2 text-[#33FFA8] font-bold py-2 px-4 rounded-[10px]">
+                    <button className="bg-white border-white border-2 text-[#33FFA8] font-bold py-2 md-min:text-base text-sm md-min:px-4 p-2 mt-6 flex md-min:mt-0 items-center rounded-[10px]">
                       Become an Affiliate
                     </button>
                   </NavLink>
@@ -101,9 +101,9 @@ const Affiliate3 = () => {
                 <div>
                   <button
                     onClick={handleDemoClick}
-                    className="border-white border-2 text-white font-bold py-2 px-4 rounded-[10px]"
+                    className="border-white border-2 text-white font-bold  md-min:text-base text-sm  p-2 py-2 md-min:px-4 rounded-[10px]"
                   >
-                    View Demo <FontAwesomeIcon icon={faPlay} className="ml-2" />
+                    View Demo <FontAwesomeIcon icon={faPlay} className="ml-2 hidden md-min:block" />
                   </button>
                 </div>
               </div>
