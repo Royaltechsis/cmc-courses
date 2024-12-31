@@ -11,10 +11,10 @@ const CoursesChoice = () => {
         {/* {" "} */}
 
         <div className="choices-container pt-20 md-min:pt-32 md-min:px-10 px-4 py-8">
-        <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-sm pb-6">
+        <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-xs m-min:text-sm pb-6">
             Why Choose Us
         </p> 
-          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto md-min:px-28">
+          <h1 className="md-min:text-2xl md-min:text-4xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28 text-xl">
             Why You should Choose ExpertSkillz
           </h1>
           <div className="courses-inner grid  grid-cols-1  md-min:grid-cols-2 lg-min:grid-cols-3 gap-x-8 gap-y-10 pt-12 font-semibold text-center">

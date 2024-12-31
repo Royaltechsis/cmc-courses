@@ -17,16 +17,16 @@ const CoursesFaq = () => {
   return (
     <>
       <section className="">
-        <div className="pb-10 md-min:mt-28 z-0 w-full px-3 md-min:px-3 lg-min:px-10">
-        <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide text-sm pb-6">
+        <div className="pb-10 md-min:mt-28 z-0 w-full  md-min:px-3 lg-min:px-10">
+        <p className="text-[#33FFA8] font-extrabold text-center uppercase tracking-wide md-min:text-sm text-xs pb-6">
           Frequently Asked Questions (FAQ)
         </p> 
-          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto md-min:px-28">
+          <h1 className="text-xl md-min:text-4xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28">
             Here are some of Our Frequently Asked Questions
           </h1>
-          <div className="faq pb-2 md-min:px-10">
+          <div className="faq  pb-2 md-min:px-10">
             <div
-              className="faq-inner text-sm bg-[rgb(247,247,251)] md-min:mt-10 p-6 md-min:p-12 lg-min:p-16 rounded-[20px]  flex justify-center items-center 
+              className="faq-inner text-sm bg-[rgb(247,247,251)] md-min:mt-10 py-3 md-min:p-12 lg-min:p-16 rounded-[20px]  flex justify-center items-center 
         flex-col space-y-8"
             >
               {data.slice(0, 4).map(({ id, question, answer }, index) => (

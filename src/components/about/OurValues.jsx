@@ -40,12 +40,12 @@ const values = () => {
           <p className="text-[#33FFA8] font-extrabold uppercase md-min:text-left text-center tracking-wide text-xs md-min:text-sm md-min:pb-4">
             Our Value
           </p>
-          <h1 className="md-min:text-2xl md-min:text-4xl  text-xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28">
+          <h1 className=" md-min:text-4xl  text-xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto md-min:px-28">
             At ExpertSkillz, Our Values Guide 
             Everything We do. These Values include:
           </h1>
         </div>
-        <div className="grid  grid-cols-1 lg-min:grid-cols-3 md-min:grid-cols-2 md-min:gap-16  md:gap-y-10 justify-between mt-10 mb-20 md-min:my-20 md-min:px-20 px-10">
+        <div className="grid  grid-cols-1 lg-min:grid-cols-3 md-min:grid-cols-2 md-min:gap-16  md:gap-y-10 justify-between mt-10 mb-20 md-min:my-20 md-min:px-20 px-3">
           {values.map((value, index) => (
             <div
               key={index}

@@ -4,12 +4,12 @@ import HomeButton from "../home/Button";
 const CoursesPick = () => {
   return (
     <>
-      <section className="relative pt-10 px-6 h-full">
+      <section className="relative pt-10 md-min:px-6 h-full w-full ">
         {/* Header section */}
         <div className="relative text-center">
         </div>
         {/* About us body */}
-        <div className="relative mt-10 lg-min:flex space-x-6 justify-evenly md:justify-center items-center xl:justify-between max-w-screen-lg h-full">
+        <div className="relative mt-10 lg-min:flex space-x-6 justify-evenly md:justify-center items-center xl:justify-between max-w-screen-lg h-full w-full md-min:block flex flex-col ">
           <div className="md-min:w-[1500px] ml-10">
             <img src={Img} alt="person" className="w-full" />
           </div>
@@ -17,7 +17,7 @@ const CoursesPick = () => {
           <p className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-sm pb-4">
             Pick a Course
           </p>
-            <h1 className="font-bold text-3xl leading-[1.5]">
+            <h1 className="font-bold text-xl md-min:text-3xl leading-[1.5]">
               Pick a Course to Get Started in the Academy
             </h1>
 
