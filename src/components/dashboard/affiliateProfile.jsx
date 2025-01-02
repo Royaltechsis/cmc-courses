@@ -45,11 +45,14 @@ const AffiliateProfile = () => {
   };
 
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex flex-col md-min:flex-row h-screen overflow-hidden">
       <Sidebar />
       <MobileSidebar/>
-      <div className="md-min:w-3/4 py-2 md-min:px-16 w-full overflow-y-auto">
-        <div className="relative block items-center mt-3 mb-1 py-10">
+
+      <div className='w-full p-4 h-5 md-min:hidden'> </div>
+
+      
+        <div className="relative md-min:w-3/4 md-min:px-16 w-full overflow-y-auto  block items-center mt-3 mb-1 py-10">
           <section className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-t-3xl p-6 mx-4 md-min:mx-0 flex items-center justify-between mb-0">
             <h1 className="text-xl font-bold text-gray-800">Edit Profile</h1>
             <div className="relative md-min:w-16 md-min:h-16 w-12 h-12 rounded-full bg-[#edf5f4] border-4 border-white flex items-center justify-center overflow-hidden">
@@ -325,7 +328,7 @@ const AffiliateProfile = () => {
             </div>
           </section>
         </div>
-      </div>
+      
     </div>
   );
 };

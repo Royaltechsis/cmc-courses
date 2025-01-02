@@ -10,12 +10,16 @@ const WithdrawalDetails = () => {
   const withdrawal = location.state ? location.state.withdrawal : {}; // Safely extract withdrawal object
 
   return (
-    <div className="flex h-screen overflow-hidden relative">
+    <div className="flex h-screen flex-col md-min:flex-row overflow-hidden ">
       <Sidebar />
       <MobileSideBar/>
-      <div className="md-min:w-3/4 w-full py-2 md-min:px-16 p-3 overflow-y-auto relative">
+
+      <div className='w-full py-7 h-7 md-min:hidden'> </div>
+
+
+      <div className="md-min:w-3/4 w-full flex-1  scrollbar-hidden py-2 md-min:px-16 p-3 overflow-y-auto relative">
        {/* Main white background container with custom shadow */}
-       <div className="bg-[#F6FFFB] mx-3 my-16  p-3 md-min:p-8 pb-16 rounded-2xl shadow-custom relative">
+       <div className="bg-[#F6FFFB] mx-3 mb-16 md-min:mt-14  p-3 md-min:p-8 pb-16 rounded-2xl shadow-custom relative">
         
          {/* Back Button now inside the white container */}
          <Link
