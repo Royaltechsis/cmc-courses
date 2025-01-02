@@ -37,8 +37,8 @@ const AffiliateSales = () => {
       <div className="flex h-screen overflow-hidden">
         <Sidebar />
 
-        <div className="md-min:w-3/4 w-full py-2 md-min:px-16 overflow-y-auto">
-          <div className="relative block items-center mt-3 mb-1 py-10">
+       
+          <div className="relative   flex-col w-full flex  mt-3 mb-1 py-10 md-min:w-3/4  md-min:px-16">
             <div className='flex justify-between items-center mb-8 '>
               <div
                 style={{
@@ -46,16 +46,16 @@ const AffiliateSales = () => {
                 }}
                 className="py-3 mb-3 px-6 rounded-2xl z-10 w-full relative md-min:ml-10 mx-4 md-min:mr-10"
               >
-                <p className="font-bold qmd-min:text-2xl text-lg text-white">
+                <p className="font-bold md-min:text-2xl text-lg text-white">
                   See Your Sales Below, Ruth Chinoye
                 </p>
               </div>
               <MobileSidebar/>
             </div>
            
-
+                <div className=" flex-1 overflow-y-auto scrollbar-hidden">
             {/* Table Section with light gray background */}
-            <div className="rounded-3xl p-6 relative md-min:-top-10 md-min:pt-20 pt-5 md-min:mr-[10px]" style={{ backgroundColor: "#F6FFFB", boxShadow: "0 4px 20px rgba(0,0,0,0.1)",}}>
+            <div className="rounded-3xl w-auto p-6 relative md-min:-top-10 md-min:pt-20 pt-5 md-min:mr-[10px]" style={{ backgroundColor: "#F6FFFB", boxShadow: "0 4px 20px rgba(0,0,0,0.1)",}}>
               <div className="flex justify-between gap-4 items-center">
                 <div className="font-bold md-min:text-[21px] text-lg leading-[30px]">
                   <h2 className="">Affiliate Sales</h2>
@@ -144,14 +144,16 @@ const AffiliateSales = () => {
                 </div>
               </div>
               </div>
-            </div>
+                
 
             {/* Get in touch section */}
           <div className="mt-5">
             <GetInTouch/>
           </div>
+              </div>
           </div>
-        </div>
+        
+      </div>
     </>
   );
 };

@@ -19,7 +19,7 @@ const DashBoardCards = () => {
     <>
       <div className="mb-20">
         {/* Today's Affiliate Earnings first row*/}
-        <div className="md-min:grid flex flex-col gap-3 md-min:grid-cols-3 md-min:gap-9 mt-10">
+        <div className="md-min:grid flex flex-col gap-5 md-min:grid-cols-3 md-min:gap-9 md-min:mt-10 mt-4">
           <div className="bg-[#FFF5E0] rounded-[14px] md-min:w-[270px] md-min:h-[182px] shadow-lg flex md-min:flex-col flex-row">
             <div className="md-min:px-10 px-5 py-4 md-min:py-4 flex md-min:flex-col flex-row   items-left md-min:justify-left w-full justify-between">
               <div className="rounded-full bg-[#FFA400] bg-opacity-20 border-[#FFA400] h-10 w-10 flex items-center justify-center mb-0 md-min:mb-7 md-min:mt-3 mt-0">
@@ -72,7 +72,7 @@ const DashBoardCards = () => {
         </div>
         
         {/* Today's Affiliate Earnings second row*/}
-        <div className="md-min:grid md-min:grid-cols-3 md-min:gap-9 flex flex-col gap-3 mt-10">
+        <div className="md-min:grid md-min:grid-cols-3 md-min:gap-9 flex flex-col gap-5 md-min:mt-10 mt-[1.25rem]">
           <div className="bg-[#FFF5E0] rounded-[14px] md-min:w-[270px] md-min:h-[182px] shadow-lg flex md-min:flex-col flex-row">
             <div className="md-min:px-10 px-5 py-4 md-min:py-4 flex md-min:flex-col flex-row   items-left md-min:justify-left w-full justify-between">
               <div className="rounded-full bh-10 w-10 flex items-center justify-center mb-0 md-min:mb-7 md-min:mt-3 mt-0">

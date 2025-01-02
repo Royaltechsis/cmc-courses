@@ -42,13 +42,13 @@ const AffiliateWithdrawals = () => {
     <div className="flex h-screen overflow-hidden">
       <Sidebar />
       <MobileSideBar/>
-      <div className=" md-min:w-3/4 w-full py-2 px-4 md-min:px-16 overflow-y-auto">
-      <div className="relative block items-center mt-3 mb-1 pt-10">
+      <div className="relative   flex-col w-full flex  mt-3 mb-1 py-10 md-min:w-3/4  md-min:px-16 ">
+      
         <div
         style={{
           background: "linear-gradient(90deg, #10E7E7 0%, #33FFA8 100%)",
         }}
-        className="py-3 px-4 md-min:px-6 rounded-2xl z-10 relative mb-8  md-min::mx-10"
+        className="py-3 px-4 md-min:px-6 rounded-2xl z-10 relative mb-8  md-min:mx-10 mx-3"
         >
         <p className="font-bold text-lg md-min:text-2xl  text-white">
           See Your Withdrawals Below, Ruth Chinoye
@@ -56,15 +56,18 @@ const AffiliateWithdrawals = () => {
         </div>
 
         <div
-        className="rounded-3xl p-3 md:p-6 relative md-min:-top-10 pt-20"
+        className="flex-1 overflow-y-auto scrollbar-hidden"
+        >
+          <div
+        className="rounded-3xl p-3 md:p-6 relative md-min:-top-10 md-min:pt-20 mx-3"
         style={{
           backgroundColor: "#F6FFFB",
           boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
-          margin: "0 5px",
+        
         }}
         >
         <div className="block text-[#71737C]">
-          <div className="flex justify-between items-center mt-5 mx-2 md:mx-5 font-bold">
+          <div className="flex justify-between items-center md-min:mt-5 mx-2 md:mx-5 font-bold">
           <p className="font-bold text-lg md-min:text-[21px] text-black">Withdrawals</p>
           </div>
 
@@ -139,11 +142,16 @@ const AffiliateWithdrawals = () => {
           </div>
         </div>
         </div>
-      </div>
 
-      <div className="mt-5 mb-12">
+        <div className="mt-5 mb-12">
         <GetInTouch />
       </div>
+
+        </div>
+        
+
+
+      
       </div>
     </div>
     );

@@ -187,7 +187,7 @@ const Dashboard = () => {
           style={{
             background: "linear-gradient(90deg, #10E7E7 0%, #33FFA8 100%)",
           }}
-          className="md-min:py-3 py-2 px-2 md-min:px-6 md-min:mb-6 rounded-2xl"
+          className="md-min:py-3 py-2 px-2 md-min:px-6 md-min:mb-6 mb-3  rounded-2xl"
         >
           <p className="font-bold md-min:text-2xl text-lg text-white">
             Welcome back, Ruth Chinoye

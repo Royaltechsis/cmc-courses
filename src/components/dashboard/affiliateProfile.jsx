@@ -50,7 +50,7 @@ const AffiliateProfile = () => {
       <MobileSidebar/>
       <div className="md-min:w-3/4 py-2 md-min:px-16 w-full overflow-y-auto">
         <div className="relative block items-center mt-3 mb-1 py-10">
-          <section className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-t-3xl p-6 flex items-center justify-between mb-0">
+          <section className="bg-gradient-to-r from-[#11F1F1] to-[#33FFA8] rounded-t-3xl p-6 mx-4 md-min:mx-0 flex items-center justify-between mb-0">
             <h1 className="text-xl font-bold text-gray-800">Edit Profile</h1>
             <div className="relative md-min:w-16 md-min:h-16 w-12 h-12 rounded-full bg-[#edf5f4] border-4 border-white flex items-center justify-center overflow-hidden">
               <label htmlFor="imageUpload" className="cursor-pointer">
@@ -71,8 +71,8 @@ const AffiliateProfile = () => {
             </div>
           </section>
 
-          <section className="bg-[#F6FFFB] p-8 pt-20 rounded-b-3xl md-min:text-base text-sm shadow-lg">
-          <div className="grid grid-cols-2 gap-6 mb-6">
+          <section className="bg-[#F6FFFB] p-8 pt-20 rounded-b-3xl md-min:text-base text-sm shadow-lg mx-4 md-min:mx-0">
+          <div className="grid grid-cols-2 gap-6 mb-6 ">
               <div>
                 <label className="block text-gray-700 font-semibold">First Name</label>
                 <input
