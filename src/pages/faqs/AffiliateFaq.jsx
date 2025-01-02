@@ -80,13 +80,13 @@ const AffiliateFAQ = () => {
       <SecondNavBar />
       <div className="p-5 md-min:mt-36 mt-10">
       <section className="w-full items-center justify-center text-center">
-        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide text-3xl md-min:text-6xl pb-10">
+        <h1 className="text-[#33FFA8] font-extrabold uppercase tracking-wide  text-2xl md-min:mt-0 mt-5 md-min:text-6xl pb-10">
             Affiliates FAQ
         </h1>
-          <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-800 leading-[40px] max-w-3xl mx-auto lg-min:px-28">
+          <h1 className="md:text-2xl text-lg md-min:text-4xl font-bold text-center text-gray-800 md-min:leading-[40px] max-w-3xl mx-auto lg-min:px-28">
             Ask us anything
           </h1>
-        <h1 className="text-lg">
+        <h1 className="md-min:text-lg text-sm">
           Have any questions? We're here to assist you
         </h1>
       </section>
@@ -146,7 +146,7 @@ const AffiliateFAQ = () => {
         )}
       </div>
 
-      <div className="faq-inner text-sm mt-8 py-16 lg-min:px-8 px-2 rounded-[20px] lg-min:rounded-none flex justify-center items-center flex-col space-y-8">
+      <div className="faq-inner text-sm md-min:mt-8 mt-3 py-16 lg-min:px-8 px-2 rounded-[20px] lg-min:rounded-none flex justify-center items-center flex-col space-y-8">
         {filteredQuestions.map(({ id, question, answer }, index) => {
           const originalIndex = affiliateData.findIndex(item => item.question === question);
           return (

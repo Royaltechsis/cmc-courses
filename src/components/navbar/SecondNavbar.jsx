@@ -26,7 +26,7 @@ const SecondNavBar = () => {
                 className="text-fontSize1 font-[500] hover:font-[600] transition-opacity
                 text-white hover:text-[wheat] hover:delay-[0.3s] ease-linear"
             >
-                <img src={logo2} alt="Logo" className="w-[220px] 3xl:w-52" />
+                <img src={logo2} alt="Logo" className="md-min:w-[220px] w-[120px] 3xl:w-52" />
             </Link>
               )}
                

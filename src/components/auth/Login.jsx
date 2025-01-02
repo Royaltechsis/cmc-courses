@@ -56,13 +56,13 @@ function Login() {
 
   return (
     <>
-      <section className="md-min:py-11 w-full mt-10 mb-20">
+      <section className="md-min:py-11 w-full px-8 mt-10 mb-20">
         <div className="w-full h-full">
           <div className="heading text-center w-full flex justify-center">
             <p className="text-2xl font-bold">Welcome Back to ExpertSkillz!</p>
           </div>
           <div className="pt-3 heading text-center w-full flex justify-center">
-            <p className="text-base px-10 lg-min:px-32 my-5 max-w-3xl mx-auto lg-min:px-16">
+            <p className="text-base md-mn:px-10   my-5 max-w-3xl mx-auto lg-min:px-16">
               <span className=" lg-min:inline">
                 Log in to continue your learning journey and unlock new opportunities. Access your courses, track your
                 progress, and stay ahead in your chosen field. Let’s continue to grow and excel together!
@@ -77,15 +77,15 @@ function Login() {
             </div>
 
            {/* Form Container with consistent size */}
-           <div className="px-4 py-10 h-[600px] md-min:px-28 z-40 shadow-blackShadow bg-white md-min:w-[670px] md-min:rounded-[30px] rounded-[8px] md-min:rounded-l-none">
+           <div className="px-4 py-10 h-[600px] md-min:px-28 z-40 shadow-blackShadow bg-white md-min:w-[670px] md-min:rounded-[30px] rounded-[8px] w-full md-min:rounded-l-none">
               <div className="flex flex-col justify-center h-full">
                 <h3 className="text-center font-bold text-black text-fontSize2 mt-4">
                   Log <span className="text-[#33FFA8]">In</span>
                 </h3>
                 <form className="leading-10" onSubmit={signinUser}>
                   <div className="flex justify-center items-center pt-10 pb-6">
-                    <button className="flex justify-center items-center md-min:w-[205px] gap-2 bg-white py-3 border-[#33FFA8] border-inset border-2 rounded-md text-black shadow-lg">
-                      <div className="w-5 h-5  p-2">
+                    <button className="flex justify-center items-center md-min:w-[205px] gap-2 bg-white py-3 px-3 border-[#33FFA8] border-inset border-2 rounded-md text-black shadow-lg">
+                      <div className=" w-5 h-5 ">
                         <img src={googleLogo} alt="Google Logo" className="w-full" />
                       </div>
                       <p className="text-sm"> Sign in with Google</p>

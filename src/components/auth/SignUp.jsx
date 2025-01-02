@@ -88,7 +88,7 @@ function SignUp() {
   return (
     <>
       {isLoading}
-      <section className="md-min:py-11 w-full mt-10 mb-20">
+      <section className="md-min:py-11 w-full px-8 mt-10 mb-20">
         <div className="w-full h-full">
           <div className="heading text-center w-full flex justify-center">
             <p className="text-2xl font-bold max-w-3xl mx-auto lg-min:px-36">
@@ -99,7 +99,7 @@ function SignUp() {
             </p>
           </div>
           <div className="pt-3 heading text-center w-full flex justify-center">
-            <p className="text-base md-min:px-15 lg-min:px-32 my-5 max-w-3xl mx-auto lg-min:px-8">
+            <p className="text-base md-min:px-15 my-5 max-w-3xl mx-auto ">
               <span className=" lg-min:inline">
                 Unlock your potential at the premier online skills learning academy today! Begin your 
                 journey of learning and growth with our extensive range of courses. Sign up 
@@ -120,7 +120,7 @@ function SignUp() {
                 </h3>
                 <form className="leading-10" onSubmit={registerUser}>
                   <div className="flex justify-center items-center pt-10 pb-6">
-                    <button className="flex justify-center items-center md-min:w-[205px] gap-2 bg-white py-3 border-[#33FFA8] border-inset border-2 rounded-md text-black shadow-lg">
+                    <button className="flex justify-center items-center md-min:w-[205px] gap-2 bg-white py-3 border-[#33FFA8] border-inset border-2 px-2 rounded-md text-black shadow-lg">
                       <div className="w-5 h-5">
                         <img src={googleLogo} alt="Google Logo" className="w-full" />
                       </div>
