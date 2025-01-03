@@ -33,7 +33,7 @@ const AvailableCourses = () => {
                 <td className="md-min:py-6 px-4 border-b">
                   <button
                     onClick={openModal}
-                    className="bg-[#F6FFFB] border-2 border-[#33FFA8] text-[#33FFA8] font-bold px-4 py-1 rounded-md transition-all duration-500 ease-in-out hover:bg-[#33FFA8] hover:text-white"
+                    className="bg-[#F6FFFB] border-2 border-[#33FFA8] text-[#33FFA8] font-bold px-4 py-1 rounded-md transition-all duration-500 ease-in-out hover:bg-[#33FFA8] hover:text-white m-2"
                   >
                     {course.status}
                   </button>

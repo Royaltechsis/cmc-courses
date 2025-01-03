@@ -30,6 +30,7 @@ const AffiliateIncomeChart = () => {
     };
 
     const options = {
+        maintainAspectRatio: false, // Allows chart to fill container height
         responsive: true,
         plugins: {
             tooltip: {
@@ -76,7 +77,7 @@ const AffiliateIncomeChart = () => {
     ];
 
     return (
-        <div className="p-4 mb-20 bg-[#F6FFF] rounded-lg shadow-md">
+        <div className="p-4 mb-20 bg-[#F6FFF] rounded-lg shadow-md h-[400px] ">
             <div className="flex justify-between items-center mb-4">
                 <h3 className="font-semibold text-lg">Affiliate Income</h3>
                 <div className="relative">
@@ -115,7 +116,7 @@ const AffiliateIncomeChart = () => {
                     </div>
                 </div>
             </div>
-            <Bar data={data} options={options} />
+            <Bar data={data} options={options}  />
         </div>
     );
 };
